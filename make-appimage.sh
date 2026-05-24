@@ -13,8 +13,8 @@ export DESKTOP=DUMMY
 export MAIN_BIN=flashrom
 
 # Deploy dependencies
-quick-sharun /usr/bin/flashrom \
-/usr/lib/libflashrom.so
+quick-sharun \
+/usr/bin/flashrom
 
 # Additional changes can be done in between here
 
