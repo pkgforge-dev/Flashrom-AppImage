@@ -14,8 +14,7 @@ export MAIN_BIN=flashrom
 
 # Deploy dependencies
 quick-sharun /usr/bin/flashrom \
-/usr/lib/libflashrom.so \
-/usr/lib/libusb.so
+/usr/lib/libflashrom.so
 
 # Additional changes can be done in between here
 
