@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=export ICON=https://github.com/Flashrom.png
 export DESKTOP=DUMMY
+export MAIN_BIN=flashrom
 
 # Deploy dependencies
 quick-sharun /usr/bin/flashrom
